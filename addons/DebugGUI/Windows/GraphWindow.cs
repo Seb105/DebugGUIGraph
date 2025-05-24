@@ -376,7 +376,7 @@ namespace WeavUtils
         {
             foreach (Node child in node.GetChildren())
             {
-                GD.Print(child);
+                // GD.Print(child);
                 RegisterAttributes(child);
             }
 
